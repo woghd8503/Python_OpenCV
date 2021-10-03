@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-src = cv2.imread("../img/psycho_but_ok.jpg", cv2.IMREAD_COLOR)
+src = cv2.imread("../img/psycho_but_okay.jpg", cv2.IMREAD_COLOR)
 
 val = 100
 array = np.full(src.shape, (val, val, val), dtype=np.uint8)

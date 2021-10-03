@@ -1,0 +1,9 @@
+1) 가상환경리스트 확인
+conda env list
+2) 가상환경만들기
+conda create -n opencvEnv python=3.7
+3) 가상환경 활성화
+conda activate opencvEnv
+4) opencv 설치
+pip install opencv-python             # opencv만 설치
+pip install opencv-contrib-python   # 확장모듈도 포함 설치

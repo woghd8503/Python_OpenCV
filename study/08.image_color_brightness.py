@@ -1,10 +1,10 @@
 import numpy as np
 import cv2
 
-src = cv2.imread('../img/psycho_but_ok.jpg', cv2.IMREAD_COLOR)
+# src = cv2.imread("../img/psycho_but_okay.jpg", cv2.IMREAD_GRAYSCALE)
+src = cv2.imread("../img/psycho_but_okay.jpg", cv2.IMREAD_COLOR)
 
-x, y = 50, 50
-
+# Blue색에만 더해진다
 add_dst = cv2.add(src, 100)
 sub_dst = cv2.subtract(src, 100)
 

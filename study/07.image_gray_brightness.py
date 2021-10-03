@@ -1,8 +1,7 @@
 import numpy as np
 import cv2
 
-src = cv2.imread('../img/psycho_but_ok.jpg', cv2.IMREAD_GRAYSCALE)
-
+src = cv2.imread("../img/psycho_but_okay.jpg", cv2.IMREAD_GRAYSCALE)
 
 add_dst = cv2.add(src, 100)
 sub_dst = cv2.subtract(src, 100)
